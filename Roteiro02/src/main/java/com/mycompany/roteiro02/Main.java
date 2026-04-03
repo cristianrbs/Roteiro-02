@@ -10,8 +10,8 @@ public class Main {
 
         System.out.println("\n=== Informações do Quadrado ===");
         quadrado.imprimir();
-        System.out.println("Área: " + quadrado.area());
-        System.out.println("Perímetro: " + quadrado.perimetro());
-        System.out.println("É um quadrado válido? " + quadrado.isQuadrado());
+        System.out.println("Area: " + quadrado.area());
+        System.out.println("Perimetro: " + quadrado.perimetro());
+        System.out.println("Eh um quadrado? " + quadrado.isQuadrado());
     }
 }
