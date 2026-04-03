@@ -83,7 +83,7 @@ public class Quadrado {
         }
 
         boolean anguloReto = false;
-        if(Math.pow(diagonal1, 2) == Math.pow(lado1, 2) + Math.pow(lado2, 2)){
+        if(Math.round(Math.pow(diagonal1, 2)) == Math.round(Math.pow(lado1, 2) + Math.pow(lado2, 2))){
             anguloReto = true;
         }
         return ladosIguais && diagonaisIguais && anguloReto;
