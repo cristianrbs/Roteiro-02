@@ -8,7 +8,9 @@ public class Main {
         Quadrado quadrado = new Quadrado();
         quadrado.fill();
 
-        System.out.println("\n=== Informações do Quadrado ===");
+        System.out.println("------------------------------");
+        System.out.println("Informacoes do Quadrado");
+        System.out.println("------------------------------");
         quadrado.imprimir();
         System.out.println("Area: " + quadrado.area());
         System.out.println("Perimetro: " + quadrado.perimetro());
