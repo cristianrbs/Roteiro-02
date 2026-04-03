@@ -1,5 +1,5 @@
 package Classes;
-import Classes.Ponto;
+import classes.Ponto;
 import java.util.Scanner;
 
 public class Quadrado {
