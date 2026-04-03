@@ -74,38 +74,38 @@ public class Quadrado {
 
         boolean ladosIguais = false;
         if((lado1 == lado2) && (lado2 == lado3) && (lado3 == lado4)){
-            return ladosIguais = true;
+            ladosIguais = true;
         }
         
         boolean diagonaisIguais = false;
         if(diagonal1 == diagonal2){
-            return diagonaisIguais = true;
+            diagonaisIguais = true;
         }
 
         boolean anguloReto = false;
         if(Math.pow(diagonal1, 2) == Math.pow(lado1, 2) + Math.pow(lado2, 2)){
-            return anguloReto = true;
+            anguloReto = true;
         }
-        return false;
+        return ladosIguais && diagonaisIguais && anguloReto;
     }
 
-    public Ponto getP1() {
+    public Ponto getP1(){
         return p1;
     }
 
-    public void setP1(Ponto p1) {
+    public void setP1(Ponto p1){
         this.p1 = p1;
     }
 
-    public Ponto getP2() {
+    public Ponto getP2(){
         return p2;
     }
 
-    public void setP2(Ponto p2) {
+    public void setP2(Ponto p2){
         this.p2 = p2;
     }
 
-    public Ponto getP3() {
+    public Ponto getP3(){
         return p3;
     }
 
