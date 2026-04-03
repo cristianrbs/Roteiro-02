@@ -1,5 +1,6 @@
 package Classes;
 import Classes.Ponto;
+import java.util.Scanner;
 
 public class Quadrado {
     private Ponto p1, p2, p3, p4;
@@ -12,6 +13,34 @@ public class Quadrado {
     }
     
     public void fill(){
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Digite o x do ponto 1: ");
+    double x1 = scanner.nextDouble();
+    System.out.print("Digite o y do ponto 1: ");
+    double y1 = scanner.nextDouble();
+    p1 = new Ponto(x1, y1);
+
+    System.out.print("Digite o x do ponto 2: ");
+    double x2 = scanner.nextDouble();
+    System.out.print("Digite o y do ponto 2: ");
+    double y2 = scanner.nextDouble();
+    p2 = new Ponto(x2, y2);
+
+    System.out.print("Digite o x do ponto 3: ");
+    double x3 = scanner.nextDouble();
+    System.out.print("Digite o y do ponto 3: ");
+    double y3 = scanner.nextDouble();
+    p3 = new Ponto(x3, y3);
+
+    System.out.print("Digite o x do ponto 4: ");
+    double x4 = scanner.nextDouble();
+    System.out.print("Digite o y do ponto 4: ");
+    double y4 = scanner.nextDouble();
+    p4 = new Ponto(x4, y4);
+    }
+    
+    public void imprimir(){
         System.out.println("  P1: (" + p1.getX() + ", " + p1.getY() + ")");
         System.out.println("  P2: (" + p2.getX() + ", " + p2.getY() + ")");
         System.out.println("  P3: (" + p3.getX() + ", " + p3.getY() + ")");
