@@ -13,30 +13,30 @@ public class Quadrado {
     }
     
     public void fill(){
-    Scanner scanner = new Scanner(System.in);
+    Scanner ler = new Scanner(System.in);
 
     System.out.print("Digite o x do ponto 1: ");
-    double x1 = scanner.nextDouble();
+    double x1 = ler.nextDouble();
     System.out.print("Digite o y do ponto 1: ");
-    double y1 = scanner.nextDouble();
+    double y1 = ler.nextDouble();
     p1 = new Ponto(x1, y1);
 
     System.out.print("Digite o x do ponto 2: ");
-    double x2 = scanner.nextDouble();
+    double x2 = ler.nextDouble();
     System.out.print("Digite o y do ponto 2: ");
-    double y2 = scanner.nextDouble();
+    double y2 = ler.nextDouble();
     p2 = new Ponto(x2, y2);
 
     System.out.print("Digite o x do ponto 3: ");
-    double x3 = scanner.nextDouble();
+    double x3 = ler.nextDouble();
     System.out.print("Digite o y do ponto 3: ");
-    double y3 = scanner.nextDouble();
+    double y3 = ler.nextDouble();
     p3 = new Ponto(x3, y3);
 
     System.out.print("Digite o x do ponto 4: ");
-    double x4 = scanner.nextDouble();
+    double x4 = ler.nextDouble();
     System.out.print("Digite o y do ponto 4: ");
-    double y4 = scanner.nextDouble();
+    double y4 = ler.nextDouble();
     p4 = new Ponto(x4, y4);
     }
     
